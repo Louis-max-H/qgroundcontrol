@@ -83,8 +83,10 @@ void GPSProvider::run()
             gpsDriver = new GPSDriverAshtech(&callbackEntry, this, &_reportGpsPos, _pReportSatInfo);
             baudrate = 115200;
         } else if (_type == GPSType::septentrio) {
+            qDebug() << "septentrio GPS Type";
             gpsDriver = new GPSDriverSBF(&callbackEntry, this, &_reportGpsPos, _pReportSatInfo, 5);
             baudrate = 0; // auto-configure
+            qDebug() << "septentrio GPS Type :";
         } else {
             gpsDriver = new GPSDriverUBX(GPSDriverUBX::Interface::UART, &callbackEntry, this, &_reportGpsPos, _pReportSatInfo);
             baudrate = 0; // auto-configure
@@ -105,8 +107,10 @@ void GPSProvider::run()
             //bus errors or buggy firmware. In this case we want to try multiple times before giving up.
             int numTries = 0;
 
+            qDebug() << "numTries: " << numTries;
             while (!_requestStop && numTries < 3) {
                 int helperRet = gpsDriver->receive(GPS_RECEIVE_TIMEOUT);
+                qDebug() << "helperRet: " << helperRet;
 
                 if (helperRet > 0) {
                     numTries = 0;
