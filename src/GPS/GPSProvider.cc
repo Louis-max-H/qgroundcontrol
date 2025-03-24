@@ -120,7 +120,12 @@ void GPSProvider::run()
                         numTries = 0;
                     }
 
+                    if(helperRet & 2){
+                        qDebug() << "helperRet & 2.";
+                    }
+
                     if (_pReportSatInfo && (helperRet & 2)) {
+                        qDebug() << "Repport sat Infos";
                         publishGPSSatellite();
                         numTries = 0;
                     }

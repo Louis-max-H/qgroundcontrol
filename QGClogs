@@ -1,0 +1,4326 @@
+Settings location "/home/lmx/.config/QGroundControl.org/QGroundControl Daily.ini" Is writable?: true
+Filter rules "*Log.debug=false\nLinkManagerLog.debug=true\nRTKGPSLog.debug=true\nGStreamerAPILog.debug=true\nqt.qml.connections=false"
+System reported locale: QLocale(English, Latin, United States) ; Name "en_US" ; Preffered (used in maps):  "en-US"
+Error loading text-to-speech plug-in "speechd"
+serialnmea: No known GPS device found. Specify the COM port via QT_NMEA_SERIAL_PORT.
+VideoReceiverLog: Stop called on empty URI
+VideoReceiverLog: Stop called on empty URI
+MAVLinkLogManagerLog: MAVLink logs directory: "/home/lmx/Documents/QGroundControl Daily/Logs"
+qt.network.ssl: QSslSocket: cannot resolve EVP_PKEY_base_id
+qt.network.ssl: QSslSocket: cannot resolve SSL_get_peer_certificate
+Ignoring ssl certificates due to OpenSSL version mismatch
+Map Cache in: "/home/lmx/.cache/QGCMapCache300" / "qgcMapCache.db"
+qt.network.ssl: QSslSocket: cannot call unresolved function SSL_get_peer_certificate
+setCurrentPlanViewSeqNum
+setCurrentPlanViewSeqNum
+qt.positioning.geoclue2: Unable to obtain the client patch: "org.freedesktop.DBus.Error.ServiceUnknownThe name is not activatable"
+QGCPositionManager error 0
+qt.network.ssl: QSslSocket: cannot call unresolved function EVP_PKEY_base_id
+LinkManagerLog: New auto-connect UDP port added
+LinkManagerLog: allocateMavlinkChannel 1
+LinkManagerLog: Waiting for next autoconnect pass "/dev/ttyACM0"
+"v4.4.4"
+LinkManagerLog: RTK GPS auto-connected "ttyACM0"
+RTKGPSLog: Connecting Septentrio device
+RTKGPSLog: Survey in accuracy:duration 2 180
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+No COM port detected
+septentrio GPS Type
+septentrio GPS Type :
+Send MSG: SSSSSSSSSS
+
+Send MSG: setDataInOut,COM1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,COM2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB1,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB2,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB3,,-RTCMv3
+
+response: 0
+Send MSG: setDataInOut,USB4,,-RTCMv3
+
+response: 0
+Send MSG: 
+
+Septentrio GNSS receiver COM port: USB1
+Send MSG: setSBFOutput, Stream1, USB1, none, off
+
+READ 50: USB1>$R: setSBFOutput, Stream1, USB1, none, off
+
+response: 1
+Correct baud rate on both ends
+Send MSG: setDataInOut, USB1, Auto, SBF
+
+READ 36: $R: setDataInOut, USB1, Auto, SBF
+
+response: 1
+Send MSG: setDataInOut, USB1, Auto, SBF
+
+READ 36: $R: setDataInOut, USB1, Auto, SBF
+
+response: 1
+Configuring moving RTCM
+Send MSG: setDataInOut, USB1, Auto, +SBF
+
+READ 37: $R: setDataInOut, USB1, Auto, +SBF
+
+response: 1
+Send MSG: setSBFOutput, Stream1, USB1, PostProcess+Support+Status, sec1
+
+response: 0
+Send MSG: setDataInOut, USB1, Auto, +RTCMv3
+setPVTMode, Static, All, auto
+
+response: 0
+numTries:  0
+Read 579 bytes (receive)
+Read 962 bytes (receive)
+Read 162 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 597 bytes (receive)
+helperRet:  1
+Read 152 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.2905, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.2905, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 893 bytes (receive)
+Read 231 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.2905, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 749 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.2944, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 300 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 456 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.2944, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.2944, long=4.73213, lat=50.8486"
+Read 212 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 773 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.2985, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 202 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.2985, long=4.73213, lat=50.8486"
+Read 66 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 720 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3012, long=4.73213, lat=50.8486"
+Read 65 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3012, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3012, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 196 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3012, long=4.73213, lat=50.8486"
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 492 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 375 bytes (receive)
+helperRet:  1
+Read 410 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+Read 461 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 831 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 745 bytes (receive)
+helperRet:  1
+Read 40 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 524 bytes (receive)
+Read 16 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 196 bytes (receive)
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 130 bytes (receive)
+Read 655 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+Read 996 bytes (receive)
+Read 296 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3054, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 386 bytes (receive)
+helperRet:  1
+Read 399 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.313, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.313, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 40 bytes (receive)
+Read 267 bytes (receive)
+Read 33 bytes (receive)
+Read 334 bytes (receive)
+Read 122 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.313, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 21 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 603 bytes (receive)
+Read 21 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 21 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 254 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 531 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 104 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 196 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 21 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 622 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 163 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 60 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 196 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3113, long=4.73213, lat=50.8486"
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 304 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3317, long=4.73213, lat=50.8486"
+Read 481 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3317, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 949 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3317, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 34 satellites"
+Read 492 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 606 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3361, long=4.73213, lat=50.8486"
+Read 179 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3361, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 300 bytes (receive)
+Read 315 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 116 bytes (receive)
+Read 152 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 572 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3387, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 268 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3387, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 483 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3424, long=4.73213, lat=50.8486"
+Read 302 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3424, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 45 bytes (receive)
+Read 111 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3424, long=4.73213, lat=50.8486"
+Read 921 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3424, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 665 bytes (receive)
+helperRet:  1
+Read 114 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3471, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3471, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3471, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3471, long=4.73213, lat=50.8486"
+Read 268 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 700 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 445 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 340 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 352 bytes (receive)
+Read 188 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 949 bytes (receive)
+helperRet:  1
+Read 343 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 524 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3521, long=4.73213, lat=50.8486"
+Read 261 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3521, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 40 bytes (receive)
+Read 156 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3521, long=4.73213, lat=50.8486"
+Read 196 bytes (receive)
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 492 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 734 bytes (receive)
+helperRet:  1
+Read 51 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3556, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3556, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 300 bytes (receive)
+Read 456 bytes (receive)
+Read 144 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3556, long=4.73213, lat=50.8486"
+Read 21 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 524 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3573, long=4.73213, lat=50.8486"
+Read 261 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3573, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 949 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3573, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 492 bytes (receive)
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3564, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 175 bytes (receive)
+Read 93 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 537 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3571, long=4.73213, lat=50.8486"
+Read 248 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3571, long=4.73213, lat=50.8486"
+Read 589 bytes (receive)
+Read 35 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 21 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 612 bytes (receive)
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 524 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 261 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 515 bytes (receive)
+Read 25 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 461 bytes (receive)
+Read 831 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 300 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 485 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 996 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 296 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+Read 492 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 524 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 261 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 160 bytes (receive)
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 295 bytes (receive)
+Read 5 bytes (receive)
+Read 451 bytes (receive)
+Read 5 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 979 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3568, long=4.73213, lat=50.8486"
+Read 313 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3522, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3522, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 21 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 760 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 524 bytes (receive)
+helperRet:  1
+Read 261 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.348, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.348, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 85 bytes (receive)
+Read 71 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.348, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 79 bytes (receive)
+Read 189 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 569 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.348, long=4.73213, lat=50.8486"
+Read 131 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.348, long=4.73213, lat=50.8486"
+Read 611 bytes (receive)
+Read 13 bytes (receive)
+Read 75 bytes (receive)
+Read 81 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.348, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 589 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 131 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 739 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 52 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 455 bytes (receive)
+Read 85 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 977 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 758 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3483, long=4.73213, lat=50.8486"
+Read 33 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3483, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3483, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 223 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3483, long=4.73213, lat=50.8486"
+Read 73 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 791 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 300 bytes (receive)
+Read 48 bytes (receive)
+Read 456 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 224 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3488, long=4.73213, lat=50.8486"
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 492 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 639 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.349, long=4.73213, lat=50.8486"
+Read 152 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.349, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.349, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.349, long=4.73213, lat=50.8486"
+Read 187 bytes (receive)
+Read 109 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 552 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 751 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.354, long=4.73213, lat=50.8486"
+Read 40 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.354, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 86 bytes (receive)
+Read 210 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.354, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 552 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 627 bytes (receive)
+helperRet:  1
+Read 164 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3573, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3573, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3573, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 492 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 33 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 791 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.358, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.358, long=4.73213, lat=50.8486"
+Read 977 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.358, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got position update: alt=81.358, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 791 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.358, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 104 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.358, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 677 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3612, long=4.73213, lat=50.8486"
+Read 114 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3612, long=4.73213, lat=50.8486"
+Read 380 bytes (receive)
+Read 100 bytes (receive)
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 40 bytes (receive)
+Read 110 bytes (receive)
+Read 190 bytes (receive)
+Read 106 bytes (receive)
+Read 350 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+helperRet:  1
+Read 296 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3612, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3612, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 791 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 603 bytes (receive)
+Read 21 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 21 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 353 bytes (receive)
+helperRet:  1
+Read 432 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 680 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 791 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 144 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 572 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 414 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 377 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 58 bytes (receive)
+Read 2 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 977 bytes (receive)
+Read 343 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.36, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 612 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 771 bytes (receive)
+helperRet:  1
+Read 20 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3571, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3571, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 94 bytes (receive)
+Read 62 bytes (receive)
+Read 452 bytes (receive)
+Read 124 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3571, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 21 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3571, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 552 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3574, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 300 bytes (receive)
+Read 315 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3574, long=4.73213, lat=50.8486"
+Read 977 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3574, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3574, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 720 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 71 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 53 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 215 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+Read 492 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3538, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 791 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3558, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 152 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3558, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 37 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3558, long=4.73213, lat=50.8486"
+Read 231 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 512 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3535, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 740 bytes (receive)
+helperRet:  1
+Read 45 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3535, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3535, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 412 bytes (receive)
+Read 128 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3535, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3535, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 381 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 404 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 40 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 489 bytes (receive)
+Read 831 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 300 bytes (receive)
+Read 456 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 214 bytes (receive)
+Read 82 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 720 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 305 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 480 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 489 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 831 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3476, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 726 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3534, long=4.73213, lat=50.8486"
+Read 59 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3534, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 32 bytes (receive)
+Read 156 bytes (receive)
+Read 104 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 489 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3534, long=4.73213, lat=50.8486"
+Read 831 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3534, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 232 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3542, long=4.73213, lat=50.8486"
+Read 553 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3542, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 32 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3542, long=4.73213, lat=50.8486"
+Read 1008 bytes (receive)
+Read 312 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3542, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 593 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3533, long=4.73213, lat=50.8486"
+Read 192 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3533, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 515 bytes (receive)
+Read 25 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1008 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3533, long=4.73213, lat=50.8486"
+Read 312 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3533, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 626 bytes (receive)
+helperRet:  1
+Read 159 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3527, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3527, long=4.73213, lat=50.8486"
+Read 572 bytes (receive)
+Read 156 bytes (receive)
+Read 435 bytes (receive)
+Read 141 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3527, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 144 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3527, long=4.73213, lat=50.8486"
+Read 152 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 615 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+Read 170 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 240 bytes (receive)
+Read 516 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+helperRet:  1
+Read 144 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+Read 152 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+Read 700 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 732 bytes (receive)
+helperRet:  1
+Read 53 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1008 bytes (receive)
+helperRet:  1
+Read 312 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3515, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 263 bytes (receive)
+Read 117 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3581, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 75 bytes (receive)
+Read 81 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3581, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3597, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3597, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 296 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3597, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 612 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 566 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 219 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 455 bytes (receive)
+Read 85 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 977 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 265 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 520 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 154 bytes (receive)
+Read 2 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 656 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 664 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 558 bytes (receive)
+helperRet:  1
+Read 227 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 300 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 325 bytes (receive)
+Read 131 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3643, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 433 bytes (receive)
+helperRet:  1
+Read 352 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3701, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3701, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3701, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 780 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 452 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3725, long=4.73213, lat=50.8486"
+Read 333 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3725, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3725, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3725, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 492 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3748, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 619 bytes (receive)
+helperRet:  1
+Read 166 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3748, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3748, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 489 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3748, long=4.73213, lat=50.8486"
+Read 831 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3748, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3729, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 227 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3729, long=4.73213, lat=50.8486"
+Read 69 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3729, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3747, long=4.73213, lat=50.8486"
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3747, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3747, long=4.73213, lat=50.8486"
+Read 977 bytes (receive)
+Read 343 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3771, long=4.73213, lat=50.8486"
+Read 138 bytes (receive)
+Read 267 bytes (receive)
+helperRet:  1
+Read 518 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3771, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3771, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 40 bytes (receive)
+Read 110 bytes (receive)
+Read 130 bytes (receive)
+Read 166 bytes (receive)
+Read 350 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3771, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3764, long=4.73213, lat=50.8486"
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3764, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 156 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3764, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3764, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 745 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3835, long=4.73213, lat=50.8486"
+Read 40 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3835, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 489 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3835, long=4.73213, lat=50.8486"
+Read 831 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 425 bytes (receive)
+helperRet:  1
+Read 360 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3855, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3855, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3855, long=4.73213, lat=50.8486"
+Read 489 bytes (receive)
+Read 831 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 130 bytes (receive)
+Read 655 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 423 bytes (receive)
+Read 117 bytes (receive)
+Read 60 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 225 bytes (receive)
+Read 71 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+Read 575 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 125 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 239 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 546 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 75 bytes (receive)
+Read 81 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 595 bytes (receive)
+Read 125 bytes (receive)
+Rx AttEuler
+Read 284 bytes (receive)
+Read 96 bytes (receive)
+Read 637 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 148 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 300 bytes (receive)
+Read 165 bytes (receive)
+Read 291 bytes (receive)
+Read 1024 bytes (receive)
+Read 489 bytes (receive)
+Read 831 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3904, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 655 bytes (receive)
+Read 125 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 743 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3954, long=4.73213, lat=50.8486"
+Read 42 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3954, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3954, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 97 bytes (receive)
+Read 199 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3954, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 632 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3965, long=4.73213, lat=50.8486"
+Read 153 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3965, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 296 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3965, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3965, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 1024 bytes (receive)
+Rx AttEuler
+Read 56 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 734 bytes (receive)
+helperRet:  1
+Read 51 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 284 bytes (receive)
+Read 12 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 472 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 390 bytes (receive)
+helperRet:  1
+Read 395 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 352 bytes (receive)
+Read 188 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 284 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 12 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3998, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 40 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 492 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 400 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 385 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 300 bytes (receive)
+Read 456 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1008 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 312 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 543 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3947, long=4.73213, lat=50.8486"
+Read 144 bytes (receive)
+Read 152 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 638 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3988, long=4.73213, lat=50.8486"
+Read 147 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3988, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 576 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3988, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 492 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 766 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3979, long=4.73213, lat=50.8486"
+Read 19 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3979, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 515 bytes (receive)
+Read 25 bytes (receive)
+Read 45 bytes (receive)
+Read 111 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 283 bytes (receive)
+Read 97 bytes (receive)
+Read 302 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3997, long=4.73213, lat=50.8486"
+Read 483 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3997, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 142 bytes (receive)
+Read 14 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 923 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3997, long=4.73213, lat=50.8486"
+Read 397 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 573 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 147 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 254 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.404, long=4.73213, lat=50.8486"
+Read 531 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.404, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 671 bytes (receive)
+Read 5 bytes (receive)
+Read 266 bytes (receive)
+Read 34 bytes (receive)
+Read 422 bytes (receive)
+Read 34 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.404, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.404, long=4.73213, lat=50.8486"
+Read 224 bytes (receive)
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 613 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 147 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 741 bytes (receive)
+helperRet:  1
+Read 44 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4088, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.4088, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 451 bytes (receive)
+Read 125 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4088, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 224 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4088, long=4.73213, lat=50.8486"
+Read 72 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4065, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 463 bytes (receive)
+helperRet:  1
+Read 322 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4065, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.4065, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 75 bytes (receive)
+Read 81 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 223 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4065, long=4.73213, lat=50.8486"
+Read 73 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Rx AttEuler
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4079, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4079, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 43 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4079, long=4.73213, lat=50.8486"
+Read 253 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 389 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 396 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 455 bytes (receive)
+Read 85 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1014 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 306 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4146, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 724 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4146, long=4.73213, lat=50.8486"
+Read 61 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4146, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 104 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4146, long=4.73213, lat=50.8486"
+Read 131 bytes (receive)
+Read 165 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4142, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 388 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4142, long=4.73213, lat=50.8486"
+Read 397 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4142, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 300 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 456 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 49 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4142, long=4.73213, lat=50.8486"
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 699 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+helperRet:  1
+Read 41 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.415, long=4.73213, lat=50.8486"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 785 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.415, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.415, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 564 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.416, long=4.73213, lat=50.8486"
+Read 221 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.416, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 147 bytes (receive)
+Read 149 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.416, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 767 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4197, long=4.73213, lat=50.8486"
+Read 18 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4197, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 195 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4197, long=4.73213, lat=50.8486"
+Read 101 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 615 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 170 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 49 bytes (receive)
+Read 247 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 453 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 332 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 85 bytes (receive)
+Read 71 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4228, long=4.73213, lat=50.8486"
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 572 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 602 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4205, long=4.73213, lat=50.8486"
+Read 192 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4205, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 40 bytes (receive)
+Read 110 bytes (receive)
+Read 190 bytes (receive)
+Read 46 bytes (receive)
+Read 410 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 69 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4205, long=4.73213, lat=50.8486"
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 680 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 286 bytes (receive)
+helperRet:  1
+Read 508 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4218, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4218, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 9 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4218, long=4.73213, lat=50.8486"
+Read 319 bytes (receive)
+Read 13 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 572 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 794 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4207, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 215 bytes (receive)
+Read 117 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 740 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 737 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4181, long=4.73213, lat=50.8486"
+Read 57 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4181, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 86 bytes (receive)
+Read 70 bytes (receive)
+Read 339 bytes (receive)
+Read 237 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4181, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 116 bytes (receive)
+Read 216 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 794 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4227, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 410 bytes (receive)
+Read 190 bytes (receive)
+Read 60 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 4 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4227, long=4.73213, lat=50.8486"
+Read 328 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 760 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4227, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 738 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4269, long=4.73213, lat=50.8486"
+Read 56 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4269, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4269, long=4.73213, lat=50.8486"
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 450 bytes (receive)
+helperRet:  1
+Read 344 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.427, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.427, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 240 bytes (receive)
+Read 225 bytes (receive)
+Read 291 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.427, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 218 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.427, long=4.73213, lat=50.8486"
+Read 114 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 613 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4259, long=4.73213, lat=50.8486"
+Read 181 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4259, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 90 bytes (receive)
+Read 242 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 594 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.425, long=4.73213, lat=50.8486"
+Read 200 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.425, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 154 bytes (receive)
+Read 2 bytes (receive)
+Read 1024 bytes (receive)
+Read 964 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.425, long=4.73213, lat=50.8486"
+Read 392 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 780 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 437 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4246, long=4.73213, lat=50.8486"
+Read 357 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4246, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 152 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 20 bytes (receive)
+Read 312 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 794 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.425, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 31 bytes (receive)
+Read 1 bytes (receive)
+Read 352 bytes (receive)
+Read 248 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 154 bytes (receive)
+Read 178 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 236 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4249, long=4.73213, lat=50.8486"
+Read 558 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4249, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 40 bytes (receive)
+Read 156 bytes (receive)
+Read 104 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 509 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4249, long=4.73213, lat=50.8486"
+Read 847 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4249, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 605 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4222, long=4.73213, lat=50.8486"
+Read 189 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4222, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 300 bytes (receive)
+Read 456 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4222, long=4.73213, lat=50.8486"
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4222, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 552 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 794 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4226, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 964 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4226, long=4.73213, lat=50.8486"
+Read 392 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 579 bytes (receive)
+Read 181 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 445 bytes (receive)
+helperRet:  1
+Read 349 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4219, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4219, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 32 bytes (receive)
+Read 4 bytes (receive)
+Read 152 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4219, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 84 bytes (receive)
+Read 248 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 519 bytes (receive)
+Read 181 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 231 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4195, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4195, long=4.73213, lat=50.8486"
+Read 544 bytes (receive)
+Read 28 bytes (receive)
+Read 32 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 250 bytes (receive)
+Read 82 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 780 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 586 bytes (receive)
+helperRet:  1
+Read 208 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4172, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4172, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 575 bytes (receive)
+Read 25 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4172, long=4.73213, lat=50.8486"
+Read 88 bytes (receive)
+Read 216 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4172, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 788 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4172, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4172, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 247 bytes (receive)
+Read 85 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 572 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 725 bytes (receive)
+helperRet:  1
+Read 69 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4123, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4123, long=4.73213, lat=50.8486"
+Read 627 bytes (receive)
+Read 49 bytes (receive)
+Read 300 bytes (receive)
+Read 456 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 90 bytes (receive)
+Read 242 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4123, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 794 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 113 bytes (receive)
+Read 156 bytes (receive)
+Read 554 bytes (receive)
+Read 22 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 326 bytes (receive)
+Read 6 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 746 bytes (receive)
+Read 34 bytes (receive)
+Read 338 bytes (receive)
+Read 42 bytes (receive)
+Read 743 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 51 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 114 bytes (receive)
+Read 42 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 635 bytes (receive)
+helperRet:  1
+Read 159 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 113 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 997 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 359 bytes (receive)
+Read 1024 bytes (receive)
+Rx DOP
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 40 bytes (receive)
+Read 754 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 484 bytes (receive)
+Read 116 bytes (receive)
+Read 140 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 332 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 552 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 552 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 242 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 39 bytes (receive)
+Read 117 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 332 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 591 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 203 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 535 bytes (receive)
+Read 5 bytes (receive)
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 300 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 456 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 48 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4109, long=4.73213, lat=50.8486"
+Read 332 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 592 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 461 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.412, long=4.73213, lat=50.8486"
+Read 333 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.412, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 113 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.412, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.412, long=4.73213, lat=50.8486"
+Read 116 bytes (receive)
+Read 216 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 312 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.411, long=4.73213, lat=50.8486"
+Read 482 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.411, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.411, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.411, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 278 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4108, long=4.73213, lat=50.8486"
+Read 516 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4108, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 144 bytes (receive)
+Read 12 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4108, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 116 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4108, long=4.73213, lat=50.8486"
+Read 216 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 532 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 557 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4095, long=4.73213, lat=50.8486"
+Read 237 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4095, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 320 bytes (receive)
+Read 280 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4095, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+helperRet:  1
+Read 69 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4095, long=4.73213, lat=50.8486"
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 612 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 232 bytes (receive)
+helperRet:  1
+Read 562 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4094, long=4.73213, lat=50.8486"
+Read 719 bytes (receive)
+Read 637 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 492 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 462 bytes (receive)
+helperRet:  1
+Read 332 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4068, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.4068, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 40 bytes (receive)
+Read 267 bytes (receive)
+Read 33 bytes (receive)
+Read 106 bytes (receive)
+Read 350 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4068, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 239 bytes (receive)
+Read 93 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 451 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4025, long=4.73213, lat=50.8486"
+Read 343 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4025, long=4.73213, lat=50.8486"
+Read 551 bytes (receive)
+Read 73 bytes (receive)
+Read 32 bytes (receive)
+Read 156 bytes (receive)
+Read 104 bytes (receive)
+Read 339 bytes (receive)
+Read 237 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4025, long=4.73213, lat=50.8486"
+Read 509 bytes (receive)
+Read 847 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 440 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4016, long=4.73213, lat=50.8486"
+Read 354 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4016, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 509 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4016, long=4.73213, lat=50.8486"
+Read 847 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4016, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 760 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 554 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 240 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 919 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 437 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 572 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 589 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 205 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 596 bytes (receive)
+Read 4 bytes (receive)
+Read 58 bytes (receive)
+Read 2 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 969 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.4007, long=4.73213, lat=50.8486"
+Read 359 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 532 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 288 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 500 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 563 bytes (receive)
+Read 61 bytes (receive)
+Read 75 bytes (receive)
+Read 81 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 218 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 114 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 228 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 566 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 320 bytes (receive)
+Read 220 bytes (receive)
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 240 bytes (receive)
+Read 225 bytes (receive)
+Read 291 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3941, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Read 47 bytes (receive)
+Read 285 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 720 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 727 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3876, long=4.73213, lat=50.8486"
+Read 67 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3876, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 113 bytes (receive)
+Read 156 bytes (receive)
+Read 339 bytes (receive)
+Read 237 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 700 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 293 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3867, long=4.73213, lat=50.8486"
+Read 501 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3867, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 250 bytes (receive)
+Read 82 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3867, long=4.73213, lat=50.8486"
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 680 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 542 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3861, long=4.73213, lat=50.8486"
+Read 252 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3861, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 156 bytes (receive)
+Read 339 bytes (receive)
+Read 237 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 99 bytes (receive)
+Read 233 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 32 satellites"
+Read 592 bytes (receive)
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 221 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3851, long=4.73213, lat=50.8486"
+Read 573 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3851, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 61 bytes (receive)
+Read 32 bytes (receive)
+Read 412 bytes (receive)
+Read 188 bytes (receive)
+Read 23 bytes (receive)
+Read 133 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3851, long=4.73213, lat=50.8486"
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3871, long=4.73213, lat=50.8486"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 794 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3871, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 61 bytes (receive)
+Read 40 bytes (receive)
+Read 127 bytes (receive)
+Read 29 bytes (receive)
+Read 499 bytes (receive)
+Read 77 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 84 bytes (receive)
+RTKGPSLog: "GPS: got position update: alt=81.3871, long=4.73213, lat=50.8486"
+Read 248 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 512 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 602 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3843, long=4.73213, lat=50.8486"
+Read 192 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3843, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 291 bytes (receive)
+Read 9 bytes (receive)
+Read 447 bytes (receive)
+Read 9 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3843, long=4.73213, lat=50.8486"
+Read 180 bytes (receive)
+Read 152 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 552 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 635 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3792, long=4.73213, lat=50.8486"
+Read 159 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3792, long=4.73213, lat=50.8486"
+Read 511 bytes (receive)
+Read 113 bytes (receive)
+Read 156 bytes (receive)
+Read 576 bytes (receive)
+Read 1024 bytes (receive)
+helperRet:  1
+Read 1024 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3792, long=4.73213, lat=50.8486"
+RTKGPSLog: "GPS: got position update: alt=81.3792, long=4.73213, lat=50.8486"
+Read 69 bytes (receive)
+Read 263 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 760 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 594 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3802, long=4.73213, lat=50.8486"
+Read 200 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3802, long=4.73213, lat=50.8486"
+Read 615 bytes (receive)
+Read 9 bytes (receive)
+Read 156 bytes (receive)
+Read 1024 bytes (receive)
+Read 1024 bytes (receive)
+Read 20 bytes (receive)
+Read 312 bytes (receive)
+Read 1024 bytes (receive)
+Rx PVTGeodetic
+Rx DOP
+helperRet:  2
+helperRet & 2.
+Repport sat Infos
+Read 572 bytes (receive)
+RTKGPSLog: "GPS: got satellite info update, 31 satellites"
+Read 188 bytes (receive)
+Rx AttEuler
+Read 242 bytes (receive)
+Read 138 bytes (receive)
+Read 464 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3766, long=4.73213, lat=50.8486"
+Read 330 bytes (receive)
+helperRet:  1
+RTKGPSLog: "GPS: got position update: alt=81.3766, long=4.73213, lat=50.8486"
+Read 546 bytes (receive)
+Read 26 bytes (receive)
+Read 156 bytes (receive)
+Read 403 bytes (receive)
+Read 173 bytes (receive)
