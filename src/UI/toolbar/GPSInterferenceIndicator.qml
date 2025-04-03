@@ -27,17 +27,6 @@ Item {
 
     property var    _activeVehicle: QGroundControl.multiVehicleManager.activeVehicle
 
-    function interferenceIconColor() {
-        if (_activeVehicle.gps.spoofingState.value === 1 && _activeVehicle.gps.jammingState.value === 1) {
-            return qgcPal.colorWhite
-        } else if ((_activeVehicle.gps.spoofingState.value === 2 && _activeVehicle.gps.jammingState.value<3) || (_activeVehicle.gps.jammingState.value === 2 && _activeVehicle.gps.spoofingState.value<3)) {
-            return qgcPal.colorOrange
-        } else if (_activeVehicle.gps.spoofingState.value === 3 || _activeVehicle.gps.jammingState.value === 3) {
-            return qgcPal.colorRed
-        }
-        return qgcPal.colorGrey
-    }
-
     function spoofingText() {
         if (_activeVehicle.gps.spoofingState.value === 1) {
             return qsTr("OK")
@@ -48,6 +37,7 @@ Item {
         }
         return qsTr("n/a")
     }
+
     function jammingText() {
         if (_activeVehicle.gps.jammingState.value === 1) {
             return qsTr("OK")
@@ -59,17 +49,6 @@ Item {
         return qsTr("n/a")
     }
 
-    function interferenceText() {
-        if (_activeVehicle.gps.spoofingState.value === 1) {
-            return qsTr("OK")
-        } else if (_activeVehicle.gps.spoofingState.value === 2) {
-            return qsTr("Mitigated")
-        } else if (_activeVehicle.gps.spoofingState.value === 3) {
-            return qsTr("Ongoing")
-        }
-        return Integer.class.isIntsance(_activeVehicle.gps.spoofingState.value) ? qsTr("N/A") : qsTr("n/a")
-    }
-
     QGCColoredImage {
         id:                 gpsSpoofingIcon
         width:              height
@@ -79,7 +58,19 @@ Item {
         fillMode:           Image.PreserveAspectFit
         sourceSize.height:  height
         opacity:            1
-        color:              interferenceIconColor()
+        color: {
+            let spoofing = _activeVehicle.gps.spoofingState.value
+            let jamming = _activeVehicle.gps.jammingState.value
+
+            if (spoofing === 3 || jamming === 3) {
+                return qgcPal.colorRed
+            } else if (spoofing === 2 || jamming === 2) {
+                return qgcPal.colorOrange
+            } else if (spoofing === 1 || jamming === 1) {
+                return qgcPal.colorWhite
+            }
+            return qgcPal.colorGrey
+        }
     }
 
     MouseArea {

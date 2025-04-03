@@ -61,6 +61,7 @@ void VehicleGPSFactGroup::handleMessage(Vehicle* /* vehicle */, mavlink_message_
         _handleHighLatency2(message);
         break;
     case MAVLINK_MSG_ID_GNSS_INTEGRITY:
+        qDebug() << "Get integrity message : " << message.msgid <<"\n";
         _handleGnssIntegrity(message);
         break;
     default:
@@ -121,6 +122,10 @@ void VehicleGPSFactGroup::_handleGnssIntegrity(mavlink_message_t& message)
 {
     mavlink_gnss_integrity_t gnssIntegrity;
     mavlink_msg_gnss_integrity_decode(&message, &gnssIntegrity);
+
+    qDebug() << "\tSystem   : " << gnssIntegrity.system_errors <<"\n";
+    qDebug() << "\tSpoofing : " << gnssIntegrity.spoofing_state <<"\n";
+    qDebug() << "\tjamming  : " << gnssIntegrity.jamming_state <<"\n";
 
     systemErrors()->setRawValue       (gnssIntegrity.system_errors);
     spoofingState()->setRawValue      (gnssIntegrity.spoofing_state);
