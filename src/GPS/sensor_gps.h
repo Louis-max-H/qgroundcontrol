@@ -50,13 +50,14 @@ struct sensor_gps_s
 
 	static constexpr uint8_t JAMMING_STATE_UNKNOWN = 0;
 	static constexpr uint8_t JAMMING_STATE_OK = 1;
-	static constexpr uint8_t JAMMING_STATE_WARNING = 2;
-	static constexpr uint8_t JAMMING_STATE_CRITICAL = 3;
+	static constexpr uint8_t JAMMING_STATE_PROTECTED = 2;
+	static constexpr uint8_t JAMMING_STATE_WARNING = 3;
+	static constexpr uint8_t JAMMING_STATE_CRITICAL = 4;
 	uint8_t jamming_state;
 	int32_t jamming_indicator;
 
 	static constexpr uint8_t SPOOFING_STATE_UNKNOWN = 0;
-	static constexpr uint8_t SPOOFING_STATE_NONE = 1;
+	static constexpr uint8_t SPOOFING_STATE_OK = 1;
 	static constexpr uint8_t SPOOFING_STATE_INDICATED = 2;
 	static constexpr uint8_t SPOOFING_STATE_MULTIPLE = 3;
 	uint8_t spoofing_state;

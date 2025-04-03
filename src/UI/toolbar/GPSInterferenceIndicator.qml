@@ -28,12 +28,17 @@ Item {
     property var    _activeVehicle: QGroundControl.multiVehicleManager.activeVehicle
 
     function interferenceIconColor() {
-        if (_activeVehicle.gps.spoofingState.value === 1 && _activeVehicle.gps.jammingState.value === 1) {
-            return qgcPal.colorWhite
-        } else if ((_activeVehicle.gps.spoofingState.value === 2 && _activeVehicle.gps.jammingState.value<3) || (_activeVehicle.gps.jammingState.value === 2 && _activeVehicle.gps.spoofingState.value<3)) {
-            return qgcPal.colorOrange
-        } else if (_activeVehicle.gps.spoofingState.value === 3 || _activeVehicle.gps.jammingState.value === 3) {
+        var spoofing = _activeVehicle.gps.spoofingState.value
+        var jamming = _activeVehicle.gps.jammingState.value
+
+        if (spoofing === 3 || spoofing === 4 || jamming === 4) {
             return qgcPal.colorRed
+        } else if (spoofing === 2 || jamming == 3) {
+            return qgcPal.colorOrange
+        } else if (jamming === 2) {
+            return qgcPal.colorBlue
+        }else if (spoofing === 1 || jamming === 1){
+            return qgcPal.colorWhite
         }
         return qgcPal.colorGrey
     }
@@ -42,9 +47,9 @@ Item {
         if (_activeVehicle.gps.spoofingState.value === 1) {
             return qsTr("OK")
         } else if (_activeVehicle.gps.spoofingState.value === 2) {
-            return qsTr("Mitigated")
+            return qsTr("Single")
         } else if (_activeVehicle.gps.spoofingState.value === 3) {
-            return qsTr("Ongoing")
+            return qsTr("Multiple")
         }
         return qsTr("n/a")
     }
@@ -52,8 +57,10 @@ Item {
         if (_activeVehicle.gps.jammingState.value === 1) {
             return qsTr("OK")
         } else if (_activeVehicle.gps.jammingState.value === 2) {
-            return qsTr("Mitigated")
+            return qsTr("Protected")
         } else if (_activeVehicle.gps.jammingState.value === 3) {
+            return qsTr("Detected")
+        } else if (_activeVehicle.gps.jammingState.value === 4) {
             return qsTr("Ongoing")
         }
         return qsTr("n/a")
