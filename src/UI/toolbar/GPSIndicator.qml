@@ -33,17 +33,6 @@ Item {
         anchors.bottom: parent.bottom
         spacing:        ScreenTools.defaultFontPixelWidth / 2
 
-    QGCColoredImage {
-        id:                 gpsIcon
-        width:              height
-        anchors.top:        parent.top
-        anchors.bottom:     parent.bottom
-        source:             "/qmlimages/Gps.svg"
-        fillMode:           Image.PreserveAspectFit
-        sourceSize.height:  height
-        opacity:            (_activeVehicle && _activeVehicle.gps.count.value >= 0) ? 1 : 0.5
-        color:              (_activeVehicle && _activeVehicle.gps.systemErrors.value !== 0) ? qgcPal.colorRed : qgcPal.buttonText
-    }
 
         Row {
             anchors.top:    parent.top
@@ -68,7 +57,7 @@ Item {
                 fillMode:           Image.PreserveAspectFit
                 sourceSize.height:  height
                 opacity:            (_activeVehicle && _activeVehicle.gps.count.value >= 0) ? 1 : 0.5
-                color:              qgcPal.buttonText
+                color:              (_activeVehicle && _activeVehicle.gps.systemErrors.value !== 0) ? qgcPal.colorRed : qgcPal.buttonText
             }
         }
 
