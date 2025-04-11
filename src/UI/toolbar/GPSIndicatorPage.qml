@@ -27,7 +27,56 @@ ToolIndicatorPage {
     property string na:                 qsTr("N/A", "No data to display")
     property string valueNA:            qsTr("--.--", "No data to display")
     property var    rtkSettings:        QGroundControl.settingsManager.rtkSettings
-    property bool   useFixedPosition:   rtkSettings.useFixedBasePosition.rawValue
+    property var    baseMode:           rtkSettings.baseMode.rawValue
+    property var    protocol:           rtkSettings.protocol.rawValue
+    property var    manufacturer:       rtkSettings.baseReceiverManufacturers.rawValue
+    readonly property var    _standard:           0b00001
+    readonly property var    _trimble:            0b00010
+    readonly property var    _septentrio:         0b00100
+    readonly property var    _femtomes:           0b01000
+    readonly property var    _ublox:              0b10000
+    
+    /* Manufacturer is used to determine witch parameters to displays
+     *  1 0b00001 : Standard parameters implemented for all receivers manufacturer
+     *  2 0b00010 : Trimble
+     *  4 0b00100 : Septentrio
+     *  8 0b01000 : Femtomes
+     * 16 0b10000 : U-Blox
+     *
+     * If you want to display :
+     * All settings      : 0b11111 (31)
+     * Standard settings : 0b00001 ( 1)
+     * Only Trimble      : 0b00011 ( 3) = Standard + Trimble
+     * Etc ...
+    */
+
+    onManufacturerChanged: {
+        console.log("Manufacturer changed in QML to:", manufacturer)
+        if (!(manufacturer & _septentrio) && baseMode == 3){
+            baseMode = 1
+        }
+    }
+
+    function errorText() {
+        if(!_activeVehicle || !_activeVehicle.gps){
+            return qsTr("Disconnected")
+        } else if (_activeVehicle.gps.systemErrors.value === 1) {
+            return qsTr("Incoming correction")
+        } else if (_activeVehicle.gps.systemErrors.value === 2) {
+            return qsTr("Configuration")
+        } else if (_activeVehicle.gps.systemErrors.value === 4) {
+            return qsTr("Software")
+        } else if (_activeVehicle.gps.systemErrors.value === 8) {
+            return qsTr("Antenna")
+        } else if (_activeVehicle.gps.systemErrors.value === 16) {
+            return qsTr("Event congestion")
+        } else if (_activeVehicle.gps.systemErrors.value === 32) {
+            return qsTr("CPU overload")
+        } else if (_activeVehicle.gps.systemErrors.value === 64) {
+            return qsTr("Output congestion")
+        }
+        return "Multiple errors"
+    }
 
     contentComponent: Component {
         ColumnLayout {
@@ -103,29 +152,75 @@ ToolIndicatorPage {
                 visible:            fact.visible
             }
 
+            GridLayout {
+                columns: 2
+
+                QGCLabel {
+                    text: qsTr("Manufacturer")
+                }
+                FactComboBox {
+                    Layout.fillWidth:   true
+                    // sizeToContents:     true
+                    fact:               QGroundControl.settingsManager.rtkSettings.baseReceiverManufacturers
+                    visible:            QGroundControl.settingsManager.rtkSettings.baseReceiverManufacturers.visible
+                }
+            }
+
             RowLayout {
-                visible: rtkSettings.useFixedBasePosition.visible
+                QGCRadioButton {
+                    text:       qsTr("RTCMv3")
+                    checked:    rtkSettings.protocol.rawValue  == 0
+                    onClicked:  rtkSettings.protocol.rawValue = 0
+                    visible:    true
+                }
 
                 QGCRadioButton {
+                    text:       qsTr("RTCMv2")
+                    checked:    rtkSettings.protocol.rawValue  == 1
+                    onClicked:  rtkSettings.protocol.rawValue  = 1
+                    visible:    manufacturer & _septentrio
+                }
+
+                QGCRadioButton {
+                    text:       qsTr("CMR")
+                    checked:    rtkSettings.protocol.rawValue  == 2
+                    onClicked:  rtkSettings.protocol.rawValue  = 2
+                    visible:    manufacturer & _septentrio
+                }
+
+                visible:        true
+            }
+
+            RowLayout {
+                QGCRadioButton {
                     text:       qsTr("Survey-In")
-                    checked:    !useFixedPosition
-                    onClicked:  rtkSettings.useFixedBasePosition.rawValue = false
+                    checked:    baseMode == 1
+                    onClicked:  {
+                        console.log("Manufacturer: ", manufacturer)
+                        return (rtkSettings.baseMode.rawValue = 1)
+                    }
+                    visible:    manufacturer & _standard
                 }
 
                 QGCRadioButton {
                     text: qsTr("Specify position")
-                    checked:    useFixedPosition
-                    onClicked:  rtkSettings.useFixedBasePosition.rawValue = true
+                    checked:    baseMode == 2
+                    onClicked:  rtkSettings.baseMode.rawValue = 2
+                    visible:    manufacturer & _standard
                 }
             }
 
             FactSlider {
                 Layout.fillWidth:       true
                 Layout.preferredWidth:  sliderWidth
-                label:                  qsTr("Accuracy (u-blox only)")
+                label:                  qsTr("Accuracy")
                 fact:                   QGroundControl.settingsManager.rtkSettings.surveyInAccuracyLimit
                 majorTickStepSize:      0.1
-                visible:                !useFixedPosition && rtkSettings.surveyInAccuracyLimit.visible
+                visible:                (
+                    baseMode == 1
+                    && rtkSettings.surveyInAccuracyLimit.visible
+                    && (manufacturer & _ublox)
+                )
             }
 
             FactSlider {
@@ -134,37 +229,53 @@ ToolIndicatorPage {
                 label:                  qsTr("Min Duration")
                 fact:                   rtkSettings.surveyInMinObservationDuration
                 majorTickStepSize:      10
-                visible:                !useFixedPosition && rtkSettings.surveyInMinObservationDuration.visible
+                visible:                ( 
+                    baseMode == 1
+                    && rtkSettings.surveyInMinObservationDuration.visible
+                    && (manufacturer & _standard)
+                )
             }
 
             LabelledFactTextField {
                 label:                  rtkSettings.fixedBasePositionLatitude.shortDescription
                 fact:                   rtkSettings.fixedBasePositionLatitude
-                visible:                useFixedPosition && rtkSettings.fixedBasePositionLatitude.visible
+                visible:                (
+                    baseMode == 2 
+                    && (manufacturer & _standard)
+                )
             }
 
             LabelledFactTextField {
                 label:              rtkSettings.fixedBasePositionLongitude.shortDescription
                 fact:               rtkSettings.fixedBasePositionLongitude
-                visible:            useFixedPosition && rtkSettings.fixedBasePositionLongitude.visible
+                visible:            (
+                    baseMode == 2 
+                    && (manufacturer & _standard)
+                )
             }
 
             LabelledFactTextField {
                 label:              rtkSettings.fixedBasePositionAltitude.shortDescription
                 fact:               rtkSettings.fixedBasePositionAltitude
-                visible:            useFixedPosition && rtkSettings.fixedBasePositionAltitude.visible
+                visible:            (
+                    baseMode == 2
+                    && (manufacturer & _standard)
+                )
             }
 
             LabelledFactTextField {
                 label:              rtkSettings.fixedBasePositionAccuracy.shortDescription
                 fact:               rtkSettings.fixedBasePositionAccuracy
-                visible:            useFixedPosition && rtkSettings.fixedBasePositionAccuracy.visible
+                visible:            (
+                    baseMode == 2
+                    && (manufacturer & _ublox)
+                )
             }
 
             LabelledButton {
                 label:              qsTr("Current Base Position")
                 buttonText:         enabled ? qsTr("Save") : qsTr("Not Yet Valid")
-                visible:            useFixedPosition
+                visible:            baseMode == 2
                 enabled:            QGroundControl.gpsRtk.valid.value
 
                 onClicked: {
