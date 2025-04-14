@@ -46,7 +46,7 @@ ToolIndicatorPage {
      * If you want to display :
      * All settings      : 0b11111 (31)
      * Standard settings : 0b00001 ( 1)
-     * Only Trimble      : 0b00011 ( 3) = Standard + Trimble
+     * Only Trimble      : 0b00011 ( 3) = Standard | Trimble
      * Etc ...
     */
 
@@ -207,7 +207,7 @@ ToolIndicatorPage {
                 visible:                ( 
                     baseMode == 1
                     && rtkSettings.surveyInMinObservationDuration.visible
-                    && (manufacturer & _standard)
+                    && (manufacturer & (_ublox | _femtomes | _trimble))
                 )
             }
 
