@@ -52,30 +52,9 @@ ToolIndicatorPage {
 
     onManufacturerChanged: {
         console.log("Manufacturer changed in QML to:", manufacturer)
-        if (!(manufacturer & _septentrio) && baseMode == 3){
+        if (!(manufacturer & _septentrio) ){
             baseMode = 1
         }
-    }
-
-    function errorText() {
-        if(!_activeVehicle || !_activeVehicle.gps){
-            return qsTr("Disconnected")
-        } else if (_activeVehicle.gps.systemErrors.value === 1) {
-            return qsTr("Incoming correction")
-        } else if (_activeVehicle.gps.systemErrors.value === 2) {
-            return qsTr("Configuration")
-        } else if (_activeVehicle.gps.systemErrors.value === 4) {
-            return qsTr("Software")
-        } else if (_activeVehicle.gps.systemErrors.value === 8) {
-            return qsTr("Antenna")
-        } else if (_activeVehicle.gps.systemErrors.value === 16) {
-            return qsTr("Event congestion")
-        } else if (_activeVehicle.gps.systemErrors.value === 32) {
-            return qsTr("CPU overload")
-        } else if (_activeVehicle.gps.systemErrors.value === 64) {
-            return qsTr("Output congestion")
-        }
-        return "Multiple errors"
     }
 
     contentComponent: Component {
