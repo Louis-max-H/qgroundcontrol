@@ -173,14 +173,14 @@ ToolIndicatorPage {
                 QGCRadioButton {
                     text:       qsTr("Survey-In")
                     checked:    baseMode == 0
-                    onClicked:  rtkSettings.baseMode.rawValue = 1
+                    onClicked:  rtkSettings.baseMode.rawValue = 0
                     visible:    manufacturer & _standard
                 }
 
                 QGCRadioButton {
                     text: qsTr("Specify position")
                     checked:    baseMode == 1
-                    onClicked:  rtkSettings.baseMode.rawValue = 2
+                    onClicked:  rtkSettings.baseMode.rawValue = 1
                     visible:    manufacturer & _standard
                 }
             }
