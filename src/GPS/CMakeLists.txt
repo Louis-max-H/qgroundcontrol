@@ -29,8 +29,8 @@ message(STATUS "Building GPS Drivers")
 
 CPMAddPackage(
     NAME px4-gpsdrivers
-    GITHUB_REPOSITORY Louis-max-H/PX4-GPSDrivers
-    GIT_TAG pr-base-main
+    GITHUB_REPOSITORY PX4/PX4-GPSDrivers
+    GIT_TAG main
     SOURCE_SUBDIR src
 )
 
