@@ -234,7 +234,6 @@ GPSBaseStationSupport *GPSProvider::_connectGPS()
     }
 
     gpsDriver->setBaseGeneralConfig(_rtkData.protocol);
-    qDebug() << "Set protocol to : " << _rtkData.protocol;
 
     switch(_rtkData.baseMode){
         case 1:
@@ -246,7 +245,7 @@ GPSBaseStationSupport *GPSProvider::_connectGPS()
             gpsDriver->setSurveyInSpecs(_rtkData.surveyInAccMeters * 10000.f, _rtkData.surveyInDurationSecs);
             break;
     }
-    
+
     _gpsConfig.output_mode = GPSHelper::OutputMode::RTCM;
 
     if (gpsDriver->configure(baudrate, _gpsConfig) != 0) {
