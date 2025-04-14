@@ -167,11 +167,13 @@ ToolIndicatorPage {
             }
 
             RowLayout {
+                visible:    manufacturer & _septentrio
+
                 QGCRadioButton {
                     text:       qsTr("RTCMv3")
                     checked:    rtkSettings.protocol.rawValue  == 0
                     onClicked:  rtkSettings.protocol.rawValue = 0
-                    visible:    true
+                    visible:    manufacturer & _septentrio
                 }
 
                 QGCRadioButton {
@@ -186,9 +188,7 @@ ToolIndicatorPage {
                     checked:    rtkSettings.protocol.rawValue  == 2
                     onClicked:  rtkSettings.protocol.rawValue  = 2
                     visible:    manufacturer & _septentrio
-                }
-
-                visible:        true
+                }                
             }
 
             RowLayout {
@@ -196,7 +196,7 @@ ToolIndicatorPage {
                     text:       qsTr("Survey-In")
                     checked:    baseMode == 1
                     onClicked:  {
-                        console.log("Manufacturer: ", manufacturer)
+                        console.log("ManufacturerR: ", manufacturer)
                         return (rtkSettings.baseMode.rawValue = 1)
                     }
                     visible:    manufacturer & _standard
