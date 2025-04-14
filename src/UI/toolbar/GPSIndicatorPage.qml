@@ -52,7 +52,7 @@ ToolIndicatorPage {
 
     onManufacturerChanged: {
         console.log("Manufacturer changed in QML to:", manufacturer)
-        if (!(manufacturer & _septentrio) ){
+        if (!(manufacturer & _septentrio) && baseMode == 3){
             baseMode = 1
         }
     }
@@ -173,7 +173,7 @@ ToolIndicatorPage {
             RowLayout {
                 QGCRadioButton {
                     text:       qsTr("Survey-In")
-                    checked:    baseMode == 1
+                    checked:    baseMode == 0
                     onClicked:  {
                         console.log("ManufacturerR: ", manufacturer)
                         return (rtkSettings.baseMode.rawValue = 1)
@@ -183,7 +183,7 @@ ToolIndicatorPage {
 
                 QGCRadioButton {
                     text: qsTr("Specify position")
-                    checked:    baseMode == 2
+                    checked:    baseMode == 1
                     onClicked:  rtkSettings.baseMode.rawValue = 2
                     visible:    manufacturer & _standard
                 }
