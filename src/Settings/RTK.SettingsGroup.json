@@ -4,6 +4,22 @@
     "QGC.MetaData.Facts":
 [
 {
+    "name":                 "baseReceiverManufacturers",
+    "shortDesc":            "GPS manufacturers for settings",
+    "type":                 "uint8",
+    "enumStrings":          "Standard,All,Trimble,Septentrio,Femtomes,UBlox",
+    "enumValues":           "1,31,3,5,9,17",
+    "default":              31
+},
+{
+    "name":                 "protocol",
+    "shortDesc":            "RTK protocol used by the receiver",
+    "type":                 "uint8",
+    "enumStrings":          "RTCMv3,RTCMv2,CRM",
+    "enumValues":           "0,1,2",
+    "default":              0
+},
+{
     "name":                 "surveyInAccuracyLimit",
     "shortDesc":            "Survey in accuracy (U-blox only)",
     "longDesc":             "The minimum accuracy value that Survey-In must achieve before it can complete.",
@@ -30,19 +46,19 @@
     "qgcRebootRequired":    true
 },
 {
-    "name":                 "useFixedBasePosition",
-    "shortDesc":     "Use specified base position",
-    "longDesc":      "Specify the values for the RTK base position without having to do a survey in.",
-    "type":                 "bool",
-    "default":         false,
+    "name":                 "baseMode",
+    "shortDesc":            "Use specified base mode",
+    "longDesc":             "Specify the mode for the RTK base 0: Survey-In (Fixed + Auto) 1: Specify position (Fixed + Manual)",
+    "type":                 "uint8",
+    "default":              0,
     "qgcRebootRequired":    true
 },
 {
     "name":                 "fixedBasePositionLatitude",
-    "shortDesc":     "Base Position Latitude",
-    "longDesc":      "Defines the latitude of the fixed RTK base position.",
+    "shortDesc":            "Base Position Latitude",
+    "longDesc":             "Defines the latitude of the fixed RTK base position.",
     "type":                 "double",
-    "default":         0,
+    "default":              0,
     "min":                  -90,
     "max":                  90,
     "decimalPlaces":        9,
