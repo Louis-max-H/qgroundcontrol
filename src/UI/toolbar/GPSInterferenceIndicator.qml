@@ -31,12 +31,10 @@ Item {
         var spoofing = _activeVehicle.gps.spoofingState.value
         var jamming = _activeVehicle.gps.jammingState.value
 
-        if (spoofing === 3 || spoofing === 4 || jamming === 4) {
+        if (spoofing === 2 || spoofing === 3 || jamming === 3) {
             return qgcPal.colorRed
-        } else if (spoofing === 2 || jamming == 3) {
-            return qgcPal.colorOrange
         } else if (jamming === 2) {
-            return qgcPal.colorBlue
+            return qgcPal.colorOrange
         }else if (spoofing === 1 || jamming === 1){
             return qgcPal.colorWhite
         }
@@ -57,10 +55,8 @@ Item {
         if (_activeVehicle.gps.jammingState.value === 1) {
             return qsTr("OK")
         } else if (_activeVehicle.gps.jammingState.value === 2) {
-            return qsTr("Protected")
-        } else if (_activeVehicle.gps.jammingState.value === 3) {
             return qsTr("Detected")
-        } else if (_activeVehicle.gps.jammingState.value === 4) {
+        } else if (_activeVehicle.gps.jammingState.value === 3) {
             return qsTr("Ongoing")
         }
         return qsTr("n/a")
