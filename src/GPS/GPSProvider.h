@@ -39,10 +39,15 @@ public:
         femto
     };
 
+    enum class BaseMode {
+        surveyIn,
+        fixed
+    };
+
     struct rtk_data_s {
         double surveyInAccMeters = 0;
         int surveyInDurationSecs = 0;
-        int baseMode = 0;
+        BaseMode baseMode = BaseMode::surveyIn;
         double fixedBaseLatitude = 0.;
         double fixedBaseLongitude = 0.;
         float fixedBaseAltitudeMeters = 0.f;
