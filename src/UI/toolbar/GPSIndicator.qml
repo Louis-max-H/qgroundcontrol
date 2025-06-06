@@ -33,7 +33,6 @@ Item {
         anchors.bottom: parent.bottom
         spacing:        ScreenTools.defaultFontPixelWidth / 2
 
-
         Row {
             anchors.top:    parent.top
             anchors.bottom: parent.bottom
