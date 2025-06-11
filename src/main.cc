@@ -8,6 +8,7 @@
  ****************************************************************************/
 
 #include <QtQuick/QQuickWindow>
+
 #include <QtWidgets/QApplication>
 
 #ifdef Q_OS_MACOS
